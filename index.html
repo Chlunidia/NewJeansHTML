@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewJeans</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="navbar-logo">
+                <img src="img/logo.png" alt="Logo" class="logo-image">
+            </div>
+            <div class="navbar-items d-none d-xl-flex">
+                <div class="item">
+                    <a href="#minji-section" class="scroll">Minji</a>
+                </div>
+                <div class="item">
+                    <a href="#hanni-section" class="scroll">Hanni</a>
+                </div>
+                <div class="item">
+                    <a href="#danielle-section" class="scroll">Danielle</a>
+                </div>
+                <div class="item">
+                    <a href="#haerin-section" class="scroll">Haerin</a>
+                </div>
+                <div class="item">
+                    <a href="#hyein-section" class="scroll">Hyein</a>
+                </div>
+                <div class="item-button">
+                    <a href="#all-member" class="navbar-button" role="button" onclick="scrollToSection()">All Member</a>
+                </div>
+            </div>
+        </div>
+        <!-- Button trigger modal -->
+        <div class="mobile-toggler d-lg-none">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#navbarModal">
+                <i class="fas fa-bars custom-icon-color"></i>
+            </a>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="navbarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="img/logo.png" alt="Logo">
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-line">
+                            <i class="fas fa-user-astronaut"></i><a href="#minji-section">Minji</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fas fa-user-astronaut"></i><a href="#hanni-section">Hanni</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fas fa-user-astronaut"></i><a href="#danielle-section">Danielle</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fas fa-user-astronaut"></i><a href="#haerin-section">Haerin</a>
+                        </div>
+                        <div class="modal-line">
+                            <i class="fas fa-user-astronaut"></i><a href="#hyein-section">Hyein</a>
+                        </div>
+                        <a href="#all-member" class="navbar-button" role="button" onclick="scrollToSection()">All
+                            Member</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">NewJeans</h1>
+            <p class="lead">NewJeans is made up of 5-members including Minji, Hanni, Danielle, Haerin, and Hyein.
+                NewJeans signaled their debut with the pre-release of their debut MV "Attention"
+                last week on July 22. The group then dropped a series of MVs for their
+                second title track "Hype Boy", as well as an MV for the b-side track "Hurt".
+                NewJeans's first mini album 'New Jeans' will be released digitally on August 1,
+                alongside the release of the group's third title track MV, "Cookie".</p>
+            <a href="#" class="btn btn-primary btn-lg" id="scrollButton">Get To Know Them</a>
+        </div>
+    </section>
+    <section class="section-1">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/newjeans-1.jpeg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/newjeans-2.png" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/newjeans-3.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="minji-section" class="section">
+        <div class="container text-center">
+            <h2>Minji</h2>
+            <p class="lead">Minji is a South Korea member of NewJeans as well as the leader of the group.
+                As some fans might remember, in 2021, Minji has already made a guest appearance
+                on the music video of BTS’s “Permission to Dance.”</p>
+            <div id="minji-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/minji-1.jpeg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/minji-2.jpeg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/minji-3.jpeg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/minji-4.jpeg" class="d-block w-100" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/minji-5.jpeg" class="d-block w-100" alt="Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/minji-6.jpeg" class="d-block w-100" alt="Slide 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/minji-7.jpeg" class="d-block w-100" alt="Slide 7">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#minji-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#minji-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="hanni-section" class="section">
+        <div class="container text-center">
+            <h2>Hanni</h2>
+            <p class="lead">Hanni is a Vietnamese-Australian NewJeans member and she is the main dancer of the group.
+                She has also made a guest appearance on “Permission to Dance” music video together with Minji.</p>
+            <div id="hanni-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/hanni-1.jpeg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hanni-2.jpeg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hanni-3.jpeg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hanni-4.jpeg" class="d-block w-100" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hanni-5.jpeg" class="d-block w-100" alt="Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hanni-6.jpeg" class="d-block w-100" alt="Slide 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hanni-7.jpeg" class="d-block w-100" alt="Slide 7">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#hanni-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hanni-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="danielle-section" class="section">
+        <div class="container text-center">
+            <h2>Danielle</h2>
+            <p class="lead">Danielle is a South Korean-Australian member of NewJeans.
+                Her performance in the “Attention” music video is impressive and one particular scene has become quite
+                popular over the internet.</p>
+            <div id="danielle-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/danielle-1.jpeg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/danielle-2.jpeg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/danielle-3.jpeg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/danielle-4.jpeg" class="d-block w-100" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/danielle-5.jpeg" class="d-block w-100" alt="Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/danielle-6.jpeg" class="d-block w-100" alt="Slide 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/danielle-7.jpeg" class="d-block w-100" alt="Slide 7">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#danielle-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#danielle-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="haerin-section" class="section">
+        <div class="container text-center">
+            <h2>Haerin</h2>
+            <p class="lead">Haerin is a South Korean NewJeans member. Born in 2006, she is the second youngest member in
+                the group.</p>
+            <div id="haerin-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/haerin-1.jpeg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/haerin-2.jpeg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/haerin-3.jpeg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/haerin-4.jpeg" class="d-block w-100" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/haerin-5.jpeg" class="d-block w-100" alt="Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/haerin-6.jpeg" class="d-block w-100" alt="Slide 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/haerin-7.jpeg" class="d-block w-100" alt="Slide 7">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#haerin-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#haerin-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="hyein-section" class="section">
+        <div class="container text-center">
+            <h2>Hyein</h2>
+            <p class="lead">Hyein is a South Korean member of New Jeans and she is the maknae, the youngest member,
+                of the group. She is a former member of the kid girl group USSO.GIRL.</p>
+            <div id="hyein-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/hyein-1.jpeg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hyein-2.jpeg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hyein-3.jpeg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hyein-4.jpeg" class="d-block w-100" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hyein-5.jpeg" class="d-block w-100" alt="Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hyein-6.jpeg" class="d-block w-100" alt="Slide 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hyein-7.jpeg" class="d-block w-100" alt="Slide 7">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#hyein-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hyein-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function scrollToSection() {
+            var section = document.querySelector('.section-1');
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <script>
+        // Smooth scrolling to section
+        const scrollLinks = document.querySelectorAll('.scroll');
+        scrollLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#scrollButton").click(function () {
+                $('html, body').animate({
+                    scrollTop: $(".section-1").offset().top
+                }, 800);
+            });
+        });
+    </script>
+</body>
+
+</html>
